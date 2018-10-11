@@ -23,7 +23,7 @@ def predict(array,sentence):
 
 #Calculation of CDF of the sample space of the
 #input sentence/word to predict the next word that is to occur
-      
+
 def CDF(d):
     s=sum(d.values())
     sp=0
@@ -71,7 +71,7 @@ def process():
         print("Prediction completed in: ",time.time()-startTime)
         sent=input("\nEnter sentence or 0 to exit: ")
 
-        
+
 st=time.time()
 if(__name__=="__main__"):
     process()
